@@ -1,0 +1,47 @@
+<svg id="calculator" xmlns="http://www.w3.org/2000/svg" width="60" height="42" viewBox="0 0 60 42">
+  <g id="Group_82" data-name="Group 82" transform="translate(52 30)">
+    <g id="Group_81" data-name="Group 81">
+      <path id="Path_111" data-name="Path 111" d="M7,51h3V41H7A5,5,0,0,0,7,51Zm1-2H7a3,3,0,0,1,0-6H8Z" transform="translate(-2 -41)" fill="#faa530"/>
+    </g>
+  </g>
+  <g id="Group_84" data-name="Group 84" transform="translate(58 38)">
+    <g id="Group_83" data-name="Group 83">
+      <rect id="Rectangle_116" data-name="Rectangle 116" width="2" height="4" fill="#faa530"/>
+    </g>
+  </g>
+  <g id="Group_86" data-name="Group 86" transform="translate(26.586 30)">
+    <g id="Group_85" data-name="Group 85">
+      <path id="Path_112" data-name="Path 112" d="M2,51H35.414V41H12Zm31.414-2H6.828l6-6H33.414Z" transform="translate(-2 -41)" fill="#faa530"/>
+    </g>
+  </g>
+  <g id="Group_88" data-name="Group 88">
+    <g id="Group_87" data-name="Group 87">
+      <path id="Path_113" data-name="Path 113" d="M31,53H47.414L62,38.414V25.586l-8.913-8.913c-.306-.306-.621-.6-.959-.9A19.38,19.38,0,0,0,20,30.38V42A11.013,11.013,0,0,0,31,53Zm15.586-2H31a9.01,9.01,0,0,1-9-9V30.38a17.385,17.385,0,0,1,28.812-13.1c.3.265.586.53.861.8L60,26.414V37.586Z" transform="translate(-20 -11)" fill="#faa530"/>
+    </g>
+  </g>
+  <g id="Group_90" data-name="Group 90" transform="translate(30.037 3.466)">
+    <g id="Group_89" data-name="Group 89">
+      <path id="Path_114" data-name="Path 114" d="M29.927,25.364l.707-.707a4.534,4.534,0,0,0,0-6.414l-2.45-2.45a4.539,4.539,0,0,0-6.414,0l-.756.756.775.733c.3.266.586.531.861.805Zm-4.95-8.9a2.521,2.521,0,0,1,1.793.743l2.45,2.45a2.541,2.541,0,0,1,.563,2.735l-5.719-5.719-.028-.028A2.513,2.513,0,0,1,24.977,16.464Z" transform="translate(-21.014 -14.466)" fill="#faa530"/>
+    </g>
+  </g>
+  <g id="Group_92" data-name="Group 92" transform="translate(9 10)">
+    <g id="Group_91" data-name="Group 91">
+      <path id="Path_115" data-name="Path 115" d="M41.5,44A11.5,11.5,0,1,0,30,32.5,11.513,11.513,0,0,0,41.5,44Zm0-21A9.5,9.5,0,1,1,32,32.5,9.511,9.511,0,0,1,41.5,23Z" transform="translate(-30 -21)" fill="#faa530"/>
+    </g>
+  </g>
+  <g id="Group_94" data-name="Group 94" transform="translate(47 36)">
+    <g id="Group_93" data-name="Group 93">
+      <rect id="Rectangle_117" data-name="Rectangle 117" width="2" height="4" fill="#faa530"/>
+    </g>
+  </g>
+  <g id="Group_96" data-name="Group 96" transform="translate(41 34)">
+    <g id="Group_95" data-name="Group 95">
+      <rect id="Rectangle_118" data-name="Rectangle 118" width="2" height="6" fill="#faa530"/>
+    </g>
+  </g>
+  <g id="Group_98" data-name="Group 98" transform="translate(35 36)">
+    <g id="Group_97" data-name="Group 97">
+      <rect id="Rectangle_119" data-name="Rectangle 119" width="2" height="4" fill="#faa530"/>
+    </g>
+  </g>
+</svg>
