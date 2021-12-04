@@ -1,0 +1,1678 @@
+html{
+	font-family: sans-serif;
+}
+
+.main{
+    background-color: #0c1019!important;
+}
+body{
+	line-height: 1.6em;
+    color: #fff!IMPORTANT;
+    font-family: "Rubik";
+    background-color: #0c1019!important;
+    overflow-x: hidden;
+    color: #fff!important;
+}
+img {
+    height: auto;
+    max-width: 100%;
+    border-stroke: none;
+}
+.epoxy-header {
+    background-color: #1a1e27;
+    display: block;
+}
+a.nav-link {
+    color: #ffffff;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: space-between; 
+    padding-top: 0!important; 
+    padding-bottom: 0!important; 
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0!important;
+    padding-left: 0!important;
+    padding: 0!important;
+    margin-bottom: 0!important;
+}
+.nav-item {
+    font-family: "Barlow";
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1em;
+    padding: 29px 7px;
+}
+.nav-item.dropdown.right {
+    margin-left: 25pc;
+}
+
+a.nav-link:focus
+{
+    color: #faa530;
+}
+span.navbar-toggler-icon:hover {
+    content: 'x'; 
+    color: #fff;
+    font-weight: 300;
+    font-family: Arial, sans-serif;
+}
+.dropdown-item {
+    color: #fff;
+    min-height: 20px !important;
+    padding: 0!important;
+    margin: 0;
+    margin-left: 0;
+    padding-top: 0;
+    margin-top: 0;
+    font-weight: 400;
+    line-height: 15px;
+    margin: 0;
+    font-size: 15px;
+    background-color: 0 0!important;
+
+}
+a.dropdown-item {
+    color: #fff;
+}
+span.navbar-toggler-icon{
+    background-image: url("../images/menu.png");
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    background: 0 0!important;
+}
+a#navbarDropdown:focus
+{
+    color: #faa530;
+}
+.dropdown-item.item-2 {
+    margin-bottom: -5px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.dropdown-menu.show {
+    background-color: #1a1e27;
+    border: 0;
+    border-top: 1px solid #faa530;
+    box-shadow: 0 13px 18px rgb(0 0 0 / 22%);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-width: 250px;
+    height: auto;
+    border-radius: 0;
+}
+.dropdown-item {
+    display: block;
+    color: #212529;
+}
+.drops {
+    padding: 4px 10px;
+}
+.master-head {
+	background-color: #1a1e27!important;
+}
+.logo-list {
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    top: 0;
+    padding: 15px;
+    background: #1a1e27;
+    z-index: 1;
+}
+.dropdown-toggle:hover::after{
+    border-color: #faa530!important;
+}
+.nav-item.dropdown {
+    margin-right: 10px;
+}
+.nav-item.dropdown:hover{
+    color: #ffffff!important;
+}
+.nav-link.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0; 
+    vertical-align: 0; 
+    content: "";
+    border-top: 0;
+    border-left: 0; 
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    top: 30px; 
+    transform: rotate( 45deg);
+    transition: all 0.3s ease-in-out;
+    padding: 2px;
+    right: -2px;
+}
+.epoxy-header.fixed-top {
+    position: sticky;
+}
+.epoxy-header.fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    -webkit-animation: smoothScroll 1s forwards;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 0;
+    padding-left: 0;
+}
+.section-wrap.banner-sec{
+    background-image: url("../images/top_header.svg");
+    padding-top: 200px;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.banner-sec-heading1 {
+    font-size: 20px;
+    letter-spacing: 4px;
+    line-height:30px;
+    margin-bottom: 10px;
+    font-family: "teko";
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    color: #ffffff;
+}
+.banner-sec-heading2 {
+    font-size: 127px;
+    line-height: 115px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #faa530;
+    color: transparent;
+    margin-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Teko';
+    font-weight: 500;
+}
+.banner-sec-heading3 {
+    font-size: 42px;
+    line-height: 42px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Teko';
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+.banner-2 {
+    opacity: .65;
+    max-width: 640px;
+    margin: 50px auto 140px;
+    text-align: center;
+    margin-bottom: 0;
+}
+p{
+    font-size: 18px;
+}
+.banner-2 p{
+    margin-bottom: 10px;
+}
+.banner-2 {
+    width: 100%;
+    line-height: 29px;
+    font-weight: 400;
+}
+a.banner-2-a {
+    color: #faa530;
+}
+.garage-sec
+{
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 65px;
+    overflow:hidden;
+}
+.garage_image img {
+    height: auto;
+    max-width: 100%;
+}
+.garage_image {
+ display: block;
+ text-align: center;
+}
+.gara_h1 {
+    font-family: "Teko";
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.4em;
+    color: #faa530;
+}
+.gara_h2 {
+    font-size: 33px;
+    letter-spacing: .5px;
+    line-height: 1.5em;
+    margin-bottom: 0;
+    font-family: "Teko";
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.garage1.row {
+    margin-right: -7px;
+    margin-left: -7px;
+    text-align: center;
+}
+.garage1 .btn {
+    font-size: 14px;
+    line-height: 1.6em;
+    min-width: 162px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0;
+    font-weight: 700;
+    border: 0;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+.commer_button .btn {
+    font-size: 14px;
+    line-height: 1.6em;
+    min-width: 162px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0;
+    font-weight: 700;
+    border: 0;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+.garage-btn.btn:hover{
+    font-size: 14px;
+    line-height: 1.6em;
+    min-width: 162px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0;
+    font-weight: 700;
+    border: 0;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+.commer-btn.btn:hover{
+    font-size: 14px;
+    line-height: 1.6em;
+    min-width: 162px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0;
+    font-weight: 700;
+    border: 0;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out; 
+}
+.btn.btn-warning.commer-1:hover {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.btn.btn-warning {
+    display: block;
+    color: #fff;
+    background-color: #faa530;
+    border-color: #faa530;
+    -webkit-transition: all 0.3s ease-in-out; 
+}
+.btn.btn-warning:hover{
+    display: block;
+    color: #fff!important;
+    background-color: #faa530;
+    border-color: #faa530;
+    -webkit-transition: all 0.3s ease-in-out; 
+}
+.btn.btn-warning:focus{
+    display: block;
+    color: #fff;
+    background-color: #faa530;
+    border-color: #faa530;
+    border-color: 0;
+    background-color: 0 0;
+}
+
+.garage-sec .garage-text {
+ max-width: 510px;
+ width: 100%;
+ margin: auto;
+ position: absolute;
+ top:49.9pc;
+ left: 50%;
+ -webkit-transform: translateX(-50%);
+}
+a.btn.btn-warning.garage_btn {
+    position: relative;
+    z-index: 0;
+}
+.btn.btn-warning.garage_btn::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    background-image: url("../images/drop.svg");
+    height: 42px;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
+}
+.garage-text img {
+    margin-bottom: 11px;
+}
+.btn.btn-warning.garage_btn:hover::before {
+    bottom: -32px;
+}
+.list-unstyled{
+    display: flex;
+    justify-content: center;
+}      
+ul.list-unstyled li{
+    text-transform: uppercase;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    font-family: "Teko";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 1.5px;
+}
+.epoxy-list {
+    margin-top: -59px;
+    position: relative;
+}
+ul.list-unstyled li:not(:first-child)::before{
+    content: "";
+    position: absolute;
+    left: -2.5px;
+    top: -4px;
+    bottom: 0;
+    height: 5px;
+    width: 5px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.epoxy-sec3::before
+{
+    background-image: url("../images/sec-3.svg");
+    content: "";
+    position: absolute;
+    top: -300px;
+    left: 0;
+    width: 684px;
+    height: 1068px;
+    z-index: -1;
+}
+.epoxy-sec3 {
+    padding-top: 65px;
+    padding-bottom: 60px;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    text-align: center;
+}
+.commer_border
+{
+    background: #1d212a;
+    padding-top: 90px;
+    padding-bottom: 120px;
+}
+.commer_main{
+    max-width: 960px;
+    margin: auto;
+    width: 100%;
+}
+.commer_image img{
+    margin-bottom: 20px;
+} 
+.commer_image h2
+{
+    font-family: "teko";
+    font-size: 20px;
+    line-height: 1.5em;
+    letter-spacing: .5px;
+    font-weight: 600;
+}                    
+.commer_text{
+    opacity: .65;
+    max-width: 388px;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 41px;
+}       
+.epoxy-sec3.col-md-6 {
+    position: relative;
+    padding-bottom: 90px;
+}
+.commer-btn {
+    position: absolute;
+    display: inline-block;
+    padding-left: -92px;
+    margin-left: -100px;
+}
+.col.col-lg-6.concrete_image {
+    z-index: 1;
+}
+.epoxy-sec4::before{
+    background-image: url("../images/discover-left.svg");
+    width: 414px;
+    height: 432px;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+}
+.epoxy-sec4::after{
+    background-image: url("../images/concrete-after.svg");
+    width: 684px;
+    height: 1068px;
+    right: 0;
+}
+.epoxy-sec4::after {
+    content: "";
+    position: absolute;
+    top: 0;
+}
+.epoxy-sec4::before{
+    content: "";
+    position: absolute;
+    top: 0;
+}
+a:hover{
+    color: #faa530!important;
+ }
+.concrete_h {
+    font-size: 32px;
+    font-family: "Teko";
+    letter-spacing: .5px;
+    line-height: 1em;
+    margin-bottom: -45px;
+    font-weight: 500;
+}
+.epoxy-sec4
+{
+    position: relative;
+    overflow: hidden;
+    min-height: 640px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.concrete_text{
+    text-align: left;
+    width: 98%;
+}
+.price_calcu{
+    background-image: url("../images/calculator.jpg");
+    min-height: 750px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+.price_image img{
+    max-width: 219px;
+    width: 100%;
+}
+.price_image {
+    max-width: 500px;
+    margin: auto;
+    width: 100%;
+}
+.commer-btn.price_btn {
+    margin-left: 140px;
+    margin-top: 18px;
+}
+.banner-2.price-para{
+    width: 97%;
+}
+.btn.btn-warning.commer-1::before{
+    left: 0;
+    height: 22px;
+    width: 45px;
+    bottom: 0;
+    background-image: url("../images/left_drop.svg");
+}
+.btn.btn-warning.commer-1:hover::before {
+  bottom: -22px;
+  z-index: 0;
+}
+.btn.btn-warning.commer-1::after{
+  right: 0;
+  height: 25px;
+  width: 58px;
+  bottom: 0;
+  background-image: url("../images/right_drop.svg");
+
+}
+.btn.btn-warning.commer-1:hover::after {
+ bottom: -25px;
+ z-index: 0;
+}
+.btn.btn-warning.commer-1::before, .btn.btn-warning.commer-1::after {
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+}
+.maine-image::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    background-image: url("../images/droplet.svg");
+    background-repeat: no-repeat;
+    width: 132px;
+    height: 264px;
+}
+.maine
+{
+    position: relative;
+    z-index: 0;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.maine::before{
+    background-image: url("../images/maine-before.svg");
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    height: 500px;
+    width: 450px;
+}
+figure.maine-image {
+    position: relative;
+}
+.concrete_text.maine_text {
+    text-align: left;
+    margin-top: 6pc;
+}
+.banner-2.maine-para {
+    text-align: left;
+    width: 99%;
+}
+.footer{
+    background-image: url("../images/footer-back.svg");
+    padding-top: 120px;
+    padding-bottom: 10px;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-color: #090710;
+}
+a.footer-a {
+    color: #fff!important;
+    text-decoration: none;
+}
+ul.footer-list {
+    list-style: none;
+    padding-left: 0;
+}
+.footer-main li.menu-item {
+    font-family: "barlow";
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    line-height: 29px;
+}
+.footer-box {
+    width: 350px;
+    margin: 0 auto;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #333!important;
+    border: 1px solid #fff;
+    height: auto;
+    border-radius: 4px;
+    background: #1a1e27;
+    float: right;
+}
+.column1 img {
+    border: none;
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
+}
+a.footer-2a {
+    color: #fff!important;
+    text-decoration: none;
+}
+a.end-a {
+    color: #fff;
+    text-decoration: none;
+}
+a.end-a:hover {
+    color: #fff!important;
+}
+.column2 {
+    text-align: right;
+}
+.footer-2a a:hover {
+    color: #fff;
+}
+.footer-para {
+    color: #777;
+    margin: 6px 0 0;
+}
+.powered img {
+    max-width: 144px;
+}
+.rating {
+    color: #e7711b;
+    font-size: 20px;
+    margin: 0 6px 0 0;
+    vertical-align: middle;
+}
+.powered {
+    margin: 6px 0 0;
+}
+.column_h {
+    margin: 0 0 2px;
+    padding-right: 6px;
+    text-decoration: none;
+}
+.footer-image {
+    margin: 0 0 1.5em;
+}
+.footer-end{
+    padding-top: 70px;
+}
+.stars {
+    margin-bottom: -4px;
+    margin-top: -4px;
+}
+.stars img{
+    margin-right: -7px;
+}
+.terms{
+    margin-bottom: 0;
+}
+.terms p {
+    line-height: 29px;
+    font-weight: 600;
+}
+.end-a a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+/*EPOXY SUB PAGE*/
+
+
+.epoxy-sec-1 {
+    background-image: url(../images/epoxy-back.webp);
+    background-position: top;
+    background-size: cover;
+    min-height: 400px;
+    align-items: center;
+    background-color: #1a1e27;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    text-align: center;
+}
+.epoxy-title:before{
+    content: attr(title);
+    position: absolute;
+    margin-top: 6px;
+    color: transparent;
+    z-index: -1;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #faa530;
+    display: block;
+    width: 100%;
+}
+.mid-1-2 {
+    opacity: .75;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.mid-1-2 .container {
+    position: relative;
+    max-width: 800px;
+    margin: -100px auto 0;
+}
+.sec-2-left {
+    background-color: #292830;
+}
+.epoxy-sec-2-main {
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    margin-top: -80px;
+    z-index: 99;
+}
+.epoxy-sec-2-main:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60%;
+    height: 100%;
+    background-color: #292830;
+    z-index: -1;
+}
+.epoxy-sec-2-main:after{
+    background-image: url("../images/dark_shade_top.svg");
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 480px;
+    width: 315px;
+    background-repeat: no-repeat;
+    top: 0;
+}
+.epoxy-heading2 {
+    font-size: 30px;
+    font-family: "Teko";
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: left;
+    font-weight: 500;
+}
+.sec-2-left p {
+    text-align: left;
+}
+.epoxy-title {
+    font-size: 91px;
+    line-height: 1.2em;
+    margin-bottom: 0;
+    font-family: "Teko";
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+    z-index: 0;
+}
+.epoxy-sec-2-fig:before{
+   content: "";
+    background-image: url(../images/drop_y.svg);
+    position: absolute;
+    left: 614px;
+    bottom: -91px;
+    background-repeat: no-repeat;
+    width: 131px;
+    height: 263px;
+    z-index: 1;
+}
+.epoxy-sec-3 {
+    background-color: #fff;
+    color: #33373e;
+    padding-top: 100px;
+    position: relative;
+    z-index: 0;
+}
+.epoxy-sec-3::before{
+    background-image: url("../images/sec-3epoxy.svg");
+    left: 0;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.epoxy-sec-3::after{
+    background-image: url("../images/sec-3epoxy2.svg");
+    background-position: right;
+    right: 0;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.epoxy-sec-3-main {
+    padding-bottom: 100px;
+    position: relative;
+    margin: 1.5em 0 0;
+}
+.epoxy-sec-3 .container {
+    max-width: 750px;
+}
+.epoxy-sec-3-h {
+    font-size: 30px;
+    font-family: "Teko";
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    line-height: 1em;
+    color: #33373e;
+}
+.epoxy-sec-3-main p {
+    font-weight: 500;
+    line-height: 29px;
+    font-family: "rubik";
+    color: #33373e;
+    font-size: 18px;
+}
+.epoxy-sec-3-main a {
+    color: #faa530;
+    pointer-events: none;
+}
+.epoxy-sec-3-main ul li {
+    position: relative;
+    padding-left: 20px;
+}
+.epoxy-sec-3-main ul {
+    padding-left: 50px;
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.epoxy-sec-3-main ul li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #faa530;
+}
+.epoxy-sec-3-main li {
+    font-weight: 500;
+    font-size: 19px;
+    font-family: 'Rubik';
+    margin-bottom: 10px;
+}
+.epoxy-sec-4 {
+    padding-bottom: 100px;
+    position: relative;
+}
+.div-sec-4 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.div-sec-4::before
+{
+    content: "";
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-image: url("../images/sec-4epoxybefore.svg");
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+.div-sec-4::after
+{
+    content: "";
+    background-image: url("../images/sec-4epoxyafter.svg");
+    background-repeat: no-repeat;
+    background-position: center right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+.steps {
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+}
+.steps h2 {
+    font-size: 30px;
+    font-family: "Teko";
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    line-height: 1em;
+    font-weight: 500;
+}
+.steps a {
+    color: #faa530;
+    pointer-events: none;
+}
+.step-start {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    position: relative;
+}
+.step-start::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: #faa530;
+    margin: auto;
+}
+.step-h {
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    color: #faa530;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-family: 'Teko';
+}
+.step-h3 {
+    font-size: 30px;
+    font-family: "Teko";
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    line-height: 1em;
+    font-weight: 500;
+}
+.step-h3::before
+{
+    content: "";
+    position: absolute;
+    top: 6.5pc;
+    background-color: #fff;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 3px solid #faa530;
+    left: 34.4pc;
+}
+.step-para {
+    opacity: .75;
+}
+.col-md-6.sec-4{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.epoxy-sec-4::after
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 580px;
+    height: 635px;
+    background-image: url("../images/sec4last.svg");
+    background-repeat: no-repeat;
+}
+.gallery-top img {
+    width: 100%;
+    vertical-align: bottom;
+    margin-bottom: -5px;
+}
+.epoxy-sec-5-main {
+    background-color: #1d212a;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.text-align-center {
+    text-align: center;
+}
+.gallery img {
+    border-radius: 4px;
+    width: 100%;
+    height: 278px;
+    object-fit: cover;
+}
+.epoxy-sec-5 .col-sm-6.col-md-4.col-lg-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+.gallery {
+    margin-top: 60px;
+}
+.gallery .col-sm-6.col-md-4.col-lg-3 a {
+    display: block;
+    position: relative;
+    border-radius: 4px;
+}
+.gallery .col-sm-6.col-md-4.col-lg-3 a::before
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    background: linear-gradient(to bottom, #642e05 0%, #e7833b 100%);
+    opacity: 0;
+}
+.gallery .col-sm-6.col-md-4.col-lg-3 a:hover::before
+{
+    opacity: .70;
+}
+.gallery .col-sm-6.col-md-4.col-lg-3 a::after
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/search.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.3s ease-in-out;
+    opacity: 0;
+    background-size: 30%;
+}
+.gallery .col-sm-6.col-md-4.col-lg-3 a:hover::after
+{
+    opacity: 1;
+    background-size: 10%;
+}
+.epoxy-sec-6 {
+    background-color: #fff;
+    color: #33373e;
+    padding-top: 100px;
+    position: relative;
+    z-index: 0;
+}
+.epoxy-sec-6::before{
+    content: "";
+    background-image: url("../images/epoxysec6before.svg");
+    left: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.epoxy-sec-6::after{
+    content: "";
+    background-image: url("../images/epoxysec6after.svg");
+    background-position: right;
+    right: 0;
+     position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.epoxy-sec-6 .container {
+    max-width: 750px;
+    padding-left: 15px;
+}
+.epoxy-sec-6-main h2 {
+    font-size: 30px;
+    font-family: "Teko";
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    line-height: 1em;
+    color: #33373e;
+}
+.epoxy-sec-6-main {
+    padding-bottom: 100px;
+}
+.epoxy-sec-6-main p {
+    font-weight: 500;
+    font-family: 'Rubik';
+    line-height: 29px;
+    color: #33373e;
+    margin-bottom: 10px;
+}
+.epoxy-sec-6-main a {
+    color: #ffa530;
+}
+.sec-6-end{
+    background-image: url("../images/sec-6end.svg");
+    height: 20px;
+    background-position: center;
+}
+.epoxy-last-sec {
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background-color: #1a1e27;
+    position: relative;
+}
+.epoxy-last-sec::before{
+    content: "";
+    background-image: url("../images/epoxylastbefore.svg");
+    background-repeat: no-repeat;
+    height: 363px;
+    width: 131px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.epoxy-last-h {
+    letter-spacing: .5px;
+    font-size: 69px;
+    line-height: 1em;
+    font-weight: 600;
+    font-family: "Teko";
+    color: #faa530;
+    position: relative;
+    margin-bottom: 19px;
+    z-index: 0;
+}
+.epoxy-last-h:before
+{
+    content: attr(title-1);
+    position: absolute;
+    margin-top: 3px;
+    color: transparent;
+    z-index: -1;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    display: block;
+    width: 100%;
+}
+.epoxy-last-para {
+    opacity: .75;
+}
+.cols {
+    border-top: 1px solid #2f323a;
+    height: 50%;
+    padding: 15px;
+    -webkit-justify-content: center;
+    min-height: 272px;
+    display: flex;
+    align-items: center;
+}
+.cols ul li {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: "Teko";
+    letter-spacing: 1.5px;
+    line-height: 1;
+    position: relative;
+     text-align: center; 
+    align-items: center;
+    color: #faa530;
+    display: flex;
+}
+.cols ul{
+    list-style-type: none;
+}
+.epoxy-last-sec .col-lg-6 {
+    padding-right: 60px;
+}
+.col-lg-6.epoxy-sec-last-right {
+    border-left: 1px solid #2f323a;
+    padding-left: 0;
+    padding-right: 0;
+}
+.cols ul li img {
+    padding-right: 20px;
+}
+
+
+/*concrete sub page*/
+.sec-2-left a {
+    color: #faa530;
+}
+.gallery-top.concrete{
+    background-color: white;
+}
+.gallery-bottom.concrete {
+    background: white;
+}
+.sec-6-end.concrete {
+    background-color: white;
+}
+.maintops {
+    background: white;
+}
+.fa{
+    color: white;
+    font-size: 29px;
+}
+
+/*GarageSubpage*/
+
+.garage-sec-1 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-image: url("../images/garage-sec1.svg");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+.garage-sec-1-main {
+    text-align: center;
+    padding-bottom: 40px;
+}
+.garage-sec-1-main img {
+    margin-bottom: 15px;
+}
+.garage-sec-1-h {
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: #faa530;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-family: "Teko";
+    font-size: 19px;
+}
+.garage-sec-1-h {
+    letter-spacing: 2px;
+    line-height: 27px;
+    color: #faa530;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-family: "Teko";
+    font-size: 19px;
+}
+.garage-sec-1-image {
+    padding-bottom: 70px;
+}
+.garage-sec-1-image1 img {
+    height: 416px;
+    width: 100%;
+    object-fit: cover;
+}
+.choose {
+    padding-bottom: 40px;
+    min-height: 560px;
+}
+.choose-h {
+    font-family: 'Teko';
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.select1 {
+    border-radius: 3px;
+    background-color: #1d212a;
+    position: relative;
+    border: 1px solid transparent;
+}
+.select1::before{
+content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+    margin: auto;
+    height: 37px;
+    width: 37px;
+    background-image: url("../images/tick-1.svg");
+    opacity: 0;
+}
+.select1:hover {
+    border-top-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: 1px solid #faa530;
+}
+.select1:focus {
+    border-top-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: 1px solid #faa530;
+}
+
+
+.select1:hover::before{
+    opacity: 1;
+}
+.choose-content {
+    position: relative;
+    text-align: center;
+}
+.selec-content {
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 32px;
+    font-family: "Teko";
+    margin-top: 0;
+}
+.select-button {
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+button.slick-next.slick-arrow {
+    background-image: url(../images/right.svg);
+    background-repeat: no-repeat;
+    height: 52px;
+    width: 23px;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0;
+    background-color: #0c1019;
+    border: none;
+    position: absolute;
+    line-height: 0;
+    top: 46%;
+    display: block;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    outline: none;
+    right: -50px;
+}
+button.slick-prev.slick-arrow {
+    background-image: url(../images/left.svg);
+    background-repeat: no-repeat;
+    height: 52px;
+    width: 23px;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0;
+    background-color: #0c1019;
+    border: none;
+    position: absolute;
+    line-height: 0;
+    top: 46%;
+    display: block;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    outline: none;
+    left: -50px;
+}
+.slick-active#button {
+    background: #faa530;
+}
+.slick-dots button {
+    background: #363942;
+    border-radius: 50%;
+    height: 7px;
+    width: 7px;
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    padding: 5px;
+    color: transparent;
+    border: 0;
+}
+::marker {
+    display: none;
+    font-size: 0;
+}
+.slide_main {
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    position: relative;
+}
+.slider_list {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+    text-align: right;
+}
+.slide-right {
+    text-align: right;
+    width: 20%;
+    color: #faa530;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Teko";
+}
+.slide-top h3 {
+    text-transform: uppercase;
+    font-family: 'Teko';
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 0;
+}
+.slide-top {
+    width: 80%;
+    padding: 0;
+}
+.slide-start {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    position: relative;
+    margin: auto;
+}
+.slick-slide img {
+    display: flex;
+    margin: auto;
+}
+.main-slide{
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.before-image {
+    position: absolute;
+    left: -130px;
+    bottom: -54px;
+    z-index: 1;
+    max-width: 260px;
+    width: 100%;
+}
+.before-text {
+    color: #faa530;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Teko";
+}
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    margin: 0 3.5px;
+    padding: 0;
+    cursor: pointer;
+    margin-top: -5px;
+}
+.slick-dots {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: right;
+}
+.slick-dots .slick-active button {
+    background: #faa530;
+}
+.before-image img {
+    height: 200px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.beforeinner.slick-slide {
+    width: 260px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+    opacity: 1;
+}
+.slick-track{
+    opacity: 1;
+    width: 8060px;
+}
+.garage-color {
+    min-height: 560px;
+}
+.color-title {
+    position: relative;
+    text-align: center;
+}
+.color-title .reset {
+    position: absolute;
+    left: 0;
+    text-transform: uppercase;
+    font-family: "Teko";
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 14px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+.color-title .reset img {
+    margin-right: 5px;
+}
+.color-title h2 {
+    font-size: 30px;
+    font-family: "Teko";
+    margin-bottom: 30px;
+    letter-spacing: .5px;
+    line-height: 1em;
+}
+.color-title h2 strong
+{
+    color: #faa530;
+    font-weight: 500;
+}
+.garage-color-list {
+    margin-left: -5px;
+    margin-right: -5px;
+    text-align: center;
+    padding-left: 0;
+    list-style-type: none;
+}
+.garage-color-list.active {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+}
+.garage-color-list li {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 11%;
+}
+.garage-color-list li a {
+    display: block;
+    text-decoration: none;
+}
+.garage-color-list li h2 {
+    font-size: 20px;
+    margin-top: 6px;
+    font-family: "Teko";
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    line-height: 1em;
+    color: white;
+    text-decoration: none;
+}
+.garage-color-list li img {
+    border-radius: 6px;
+    border: 1px solid #707070;
+}
+
+
+/*JQuery*/
+
+@media only screen and (max-width: 990px) {
+    .logo-list{
+        left: 16%;
+        width: 40%;
+        position: relative;
+    }
+    .clk {
+        margin-top: -3.5pc;
+        margin-left: 17pc;
+    }
+li.nav-item {
+        display: block;
+        width: 100%;
+        padding: 5%;
+        border-top: 1px solid rgba(255,255,255,0.5);
+        margin-left: 4px;
+        font-size: 18px;
+    }
+ul.navbar-nav.me-auto.mb-2.mb-lg-0.navbar-nav-scroll {
+        margin-left: -14px;
+        width: 105%;
+    }   
+.nav-item.dropdown.right {
+        margin-left: 0; 
+    }
+.nav-link.dropdown-toggle::after{
+        right: 29px;
+    }
+.section-wrap.banner-sec{
+     padding-top:100px ;
+    }
+.list-unstyled{
+        display: block;
+        margin-top: 9pc;
+    }
+.epoxy-list{
+    margin-top: 0;
+}
+ul.list-unstyled li:not(:first-child)::before {
+        display: none;
+    }
+    .garage1 .btn{
+        max-width: 254px;
+        width: 100%;
+        margin: auto;
+    }
+.garage2.col-md-6 {
+        margin-bottom: 34px;
+    }
+.garage_image img {
+        height: 26pc;
+        max-width: 100%;
+    }
+.row.align-items-center {
+     display: block;
+    }
+.maine.call-grid {
+        display: none;
+    }
+.footer .row {
+        display: block;
+    }
+.footer-main {
+        text-align: center;
+    }
+.terms {
+        margin-top: 10pc;
+        text-align: center;
+    }
+.step-start::before {
+        display: none;
+    }
+}
+
+
+.arc, .metal {
+    border-top-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: 1px solid #faa530;
+    outline: 3px solid #007bff;
+    outline-offset: 6px;
+}
+.arc::before, .metal::before{
+    opacity: 1;
+}
